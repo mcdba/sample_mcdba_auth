@@ -1,0 +1,5 @@
+	DB_PATH=data/sqlite.db
+	JWT_SECRET=jwtsecret
+	EMAIL_FROM=site@sample.com
+	EMAIL_SERVER=smtp://email:password@smtp.sample.com:587
+	SITE_URL=http://localhost:5173/ 
