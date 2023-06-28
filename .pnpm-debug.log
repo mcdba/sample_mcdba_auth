@@ -1,0 +1,96 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "sample-mcdba-auth",
+      "version": "0.0.1",
+      "private": true,
+      "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+        "lint": "prettier --plugin-search-dir . --check . && eslint .",
+        "format": "prettier --plugin-search-dir . --write ."
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "^2.0.0",
+        "@sveltejs/kit": "^1.5.0",
+        "@typescript-eslint/eslint-plugin": "^5.45.0",
+        "@typescript-eslint/parser": "^5.45.0",
+        "eslint": "^8.28.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-svelte": "^2.26.0",
+        "prettier": "^2.8.0",
+        "prettier-plugin-svelte": "^2.8.1",
+        "svelte": "^3.54.0",
+        "svelte-check": "^3.0.1",
+        "tslib": "^2.4.1",
+        "typescript": "^5.0.0",
+        "vite": "^4.3.0"
+      },
+      "type": "module"
+    },
+    "prefix": "/Users/kmb/dev/sample_mcdba_auth"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/kmb/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/kmb/dev/sample_mcdba_auth/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/kmb/dev/sample_mcdba_auth",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.6.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.4.1"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.6.0",
+    "requester": "/Users/kmb/dev/sample_mcdba_auth",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/2.8.8",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "^2.8.0"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.8.8",
+    "requester": "/Users/kmb/dev/sample_mcdba_auth",
+    "status": "resolved"
+  },
+  "8 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/eslint-plugin-svelte/2.31.1: wanted: {\"node\":\"^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v15.5.0\",\"pnpm\":\"7.5.0\"})",
+    "prefix": "/Users/kmb/dev/sample_mcdba_auth"
+  },
+  "9 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte/2.31.1",
+    "wanted": {
+      "node": "^14.17.0 || >=16.0.0"
+    },
+    "current": {
+      "node": "v15.5.0",
+      "pnpm": "7.5.0"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/eslint-plugin-svelte/2.31.1: wanted: {\"node\":\"^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v15.5.0\",\"pnpm\":\"7.5.0\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/eslint-plugin-svelte/2.31.1: wanted: {\"node\":\"^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v15.5.0\",\"pnpm\":\"7.5.0\"})\n    at checkEngine (/Users/kmb/pnpm-global/5/node_modules/.pnpm/pnpm@7.5.0/node_modules/pnpm/dist/pnpm.cjs:43094:16)\n    at checkPackage (/Users/kmb/pnpm-global/5/node_modules/.pnpm/pnpm@7.5.0/node_modules/pnpm/dist/pnpm.cjs:43677:74)\n    at packageIsInstallable (/Users/kmb/pnpm-global/5/node_modules/.pnpm/pnpm@7.5.0/node_modules/pnpm/dist/pnpm.cjs:43647:20)\n    at resolveAndFetch (/Users/kmb/pnpm-global/5/node_modules/.pnpm/pnpm@7.5.0/node_modules/pnpm/dist/pnpm.cjs:93248:117)\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\n    at async resolveDependency (/Users/kmb/pnpm-global/5/node_modules/.pnpm/pnpm@7.5.0/node_modules/pnpm/dist/pnpm.cjs:122293:23)\n    at async resolveDependenciesOfDependency (/Users/kmb/pnpm-global/5/node_modules/.pnpm/pnpm@7.5.0/node_modules/pnpm/dist/pnpm.cjs:122132:39)\n    at async Promise.all (index 6)\n    at async resolveDependencies (/Users/kmb/pnpm-global/5/node_modules/.pnpm/pnpm@7.5.0/node_modules/pnpm/dist/pnpm.cjs:122061:29)\n    at async resolveRootDependencies (/Users/kmb/pnpm-global/5/node_modules/.pnpm/pnpm@7.5.0/node_modules/pnpm/dist/pnpm.cjs:122027:25)"
+    }
+  }
+}
